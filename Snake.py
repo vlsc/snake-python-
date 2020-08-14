@@ -134,7 +134,7 @@ while True:
         # printa os textos necessários no fim do game
         text = font.render('Game Over', True, [255, 255, 255])
         screen.blit(text, [145, 250])
-        text = little.render('Press START to play again', True, [255, 255, 255])
+        text = little.render('Press SPACE to play again', True, [255, 255, 255])
         screen.blit(text, [145, 500])
         text = score.render(f'Score: {pontos}', True, [255, 255, 255])
         screen.blit(text, [210, 200])
